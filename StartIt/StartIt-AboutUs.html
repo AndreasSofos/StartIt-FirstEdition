@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/startitaboutus.css" />
+    <title>Welcome to StartIt</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  
+</head>
+<body>
+  <!-- Hero and Navbar -->
+    <header class="hero">
+        <div class="navbar" >
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <nav>
+            <ul >
+              <li><a href="#about" class="active">About Us</a></li>
+              <li><a href="Startit.jsp">How it Works</a></li>
+              <li><a href="Startit-invest.jsp">Invest</a></li>
+              
+            </ul>
+          </nav>
+          <a  id="sign-in" href="#pop-signin" class="signin">Sign in</a> 
+        </div>
+        <div id="section0"data-aos="fade-right" class="content">
+          <div >
+            <div class="textnames">
+              <h1 id="name">ILIADIS </h1> 
+              <h1 id="name">VICTORAS </h1> 
+              <h2 id="job">design and</h2>
+              <h2 id="job">frontend</h2>
+            </div>  
+            <a href="#section1">  <img id="arrows" src="images/arrowdown.png" alt=""></a>
+          
+            
+           
+
+              
+          </div>  
+          <div >
+            <img id="profileimg"src="images/iliadis.png" alt="">
+          </div>     
+     
+           
+    </header>
+        <!-- Section 1 -->
+        <div  class="hero" >
+          <div id="section1"  data-aos="fade-right" class="content">
+            <div >
+              <div class="textnames">
+                <h1 id="name">ANDREAS </h1> 
+                <h1 id="name">SOFOS </h1> 
+                <h2 id="job">front-end </h2>
+                <h2 id="job"> developer</h2>
+              </div>  
+              <a href="#section2">  <img id="arrows" src="images/arrowdown.png" alt=""></a>
+              <a href="#section0">  <img id="arrows" src="images/arrowup.png" alt=""></a>
+              
+             
+  
+                
+            </div>  
+            <div >
+              <img id="profileimg"src="images/sofos.png" alt="">
+            </div>     
+          
+           
+        </div>
+        <div   class="hero" >
+          <div id="section2" data-aos="fade-right" class="content">
+            <div >
+              <div class="textnames">
+                <h1 id="name">GIANNIS </h1> 
+                <h1 id="name">VAGIONAKIS </h1> 
+                <h2 id="job">back-end</h2>
+                <h2 id="job">developer</h2>
+              </div>  
+              <a href="#section3">  <img id="arrows" src="images/arrowdown.png" alt=""></a>
+              <a href="#section1">  <img id="arrows" src="images/arrowup.png" alt=""></a>
+              
+             
+            </div>  
+            <div >
+              <img id="profileimg"src="images/testimage1.png" alt="">
+            </div>     
+          
+           
+        </div>
+        <div   class="hero" >
+          <div id="section3" data-aos="fade-right" class="content">
+            <div >
+              <div class="textnames">
+                <h1  id="namegeorge">NIKOS </h1> 
+                <h1 id="namegeorge">GEORGAKOPOYLOS </h1> 
+                <h2 id="job">back-end</h2>
+                <h2 id="job">developer</h2>
+              </div>  
+              <a href="#section2">  <img id="arrows" src="images/arrowup.png" alt=""></a>
+              
+             
+            </div>  
+            <div >
+              <img id="profileimg"src="images/testimage1.png" alt="">
+            </div>     
+          
+           
+        </div>
+    
+   
+ 
+
+    <!-- Sign in -->
+    <section id="pop-signin" class="pop-signin">
+      <h3>Not a member?<a href="#pop-signup" class="signup"> Sign up</a></h3>
+      <h1>Sign in.</h1>
+      <h2>Be a part of tommorow</h2>
+      <form>
+          <label for="email" id="email-title">Email</label> <br>
+          <input type="text" id="email-signin" name="email" > <br>
+          <label for="password" id="password-title">Password</label> <br>
+          <input type="password" id="password-signin" name="password"> <br>
+          <button type="submit" id="login">Sign in</button> <br>
+          <div class="keep">
+          <input type="checkbox" id="keep" name="keep">
+          <label for="keep" id="keep-text">Keep me logged in</label></div>
+      </form>
+      <button class="close-signin" >Close</button>
+    </section>
+    <!-- Sign In -->
+    <!-- Sign Up -->
+    <section class="pop-signup">
+      <h3>Already a member?<a href="#pop-signin" class="signup"> Sign in</a></h3>
+      <h1>Sign up.</h1>
+      <form>
+          <div class="grid">
+          <label for="name" id="name" >Name</label>
+          <label for="surname" id="surname">Surname</label>
+          <input type="text" name="name" id="name-signup">
+          <input type="text" name="surname" id="surname-signup">
+          </div>
+          <label for="email" id="email">Email</label> <br>
+          <input type="text" id="email-signup" name="email" > <br>
+          <label for="password" id="password">Password</label> <br>
+          <input type="password" id="password-signup" name="password"> <br>
+          <button type="submit" id="signup">Sign up</button>
+          <div class="keep">
+              <input type="checkbox" id="check" name="check">
+              <label for="check" id="check-text">Creating an account means you agree<br> with our Service and Privacy Terms</label>
+          </div>
+      </form>
+      <button class="close-signup" >Close</a>
+    </section>
+     <!-- Sign up -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1800,
+           })
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script>
+        $(".signin").on('click',function(){
+            $(".pop-signin").toggleClass("show");
+        });
+        $(".close-signin").on('click',function(){
+            $(".pop-signin").toggleClass("show");
+        });
+        $(".signup").on('click',function(){
+            $(".pop-signin").toggleClass("show");
+            $(".pop-signup").toggleClass("show");
+        });
+        $(".close-signup").on('click',function(){
+            $(".pop-signup").toggleClass("show");
+        });
+    </script>
+
+
+</body>
+</html>
